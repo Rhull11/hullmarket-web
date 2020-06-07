@@ -25,7 +25,7 @@
           </li>
         </ul>
         <div class="topnav-right">
-          <a class="nav-link" href="#">Shopping Cart</a>         
+          <a class="nav-link" href="shoppingcart.php">Shopping Cart</a>         
         </div>
       </div>
     </nav>
