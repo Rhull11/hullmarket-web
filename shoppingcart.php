@@ -51,24 +51,24 @@ include "config.php";
                     </thead>
                     <tbody>
                         <tr>                           
-                            <td>Product Name Dada</td>
+                            <td>4K TV</td>
                             <td>In stock</td>
                             <td><input class="form-control" type="text" value="1" /></td>
-                            <td class="text-right">124,90 €</td>
+                            <td class="text-right">$350.00</td>
                             <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
                         </tr>
                         <tr>
-                            <td>Product Name Toto</td>
+                            <td>Water Bottle</td>
                             <td>In stock</td>
                             <td><input class="form-control" type="text" value="1" /></td>
-                            <td class="text-right">33,90 €</td>
+                            <td class="text-right">$7.00€</td>
                             <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
                         </tr>
                         <tr>
-                            <td>Product Name Titi</td>
+                            <td>Office Chair/td>
                             <td>In stock</td>
                             <td><input class="form-control" type="text" value="1" /></td>
-                            <td class="text-right">70,00 €</td>
+                            <td class="text-right">$60.00</td>
                             <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
                         </tr>
                         <tr>
@@ -76,21 +76,21 @@ include "config.php";
                             <td></td>
                             <td></td>
                             <td>Sub-Total</td>
-                            <td class="text-right">255,90 €</td>
+                            <td class="text-right">417.00</td>
                         </tr>
                         <tr>
                             <td></td>
                             <td></td>
                             <td></td>
                             <td>Shipping</td>
-                            <td class="text-right">6,90 €</td>
+                            <td class="text-right">5.00</td>
                         </tr>
                         <tr>
                             <td></td>
                             <td></td>
                             <td></td>
                             <td><strong>Total</strong></td>
-                            <td class="text-right"><strong>346,90 €</strong></td>
+                            <td class="text-right"><strong>$422.0</strong></td>
                         </tr>
                     </tbody>
                 </table>
