@@ -13,6 +13,17 @@ include "config.php";
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 	<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbar-static/">
+	
+	<script>
+		$(document).ready(function(){
+ 			$("#navbarsearch").on("keyup", function() {
+    		var value = $(this).val().toLowerCase();
+    			$("#hometable tr").filter(function() {
+      				$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
 </head>
 
 <body>
@@ -29,15 +40,14 @@ include "config.php";
           </li>
         </ul>
         <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <input class="form-control mr-sm-2" id="navbarsearch" type="text" placeholder="Search" aria-label="Search">
           <a class="nav-link" href="shoppingcart.php">Shopping Cart</a>
         </form>
       </div>
     </nav>
     
     
-   <table class="table table-striped">
+   <table class="table table-striped" id="hometable">
   <thead>
     <tr>
       <th scope="col">Item</th>
@@ -59,7 +69,7 @@ include "config.php";
        echo "<tr>";
        echo "<td>$name</td>";
        echo "<td>$description</td>";
-       echo "<td>$price</td>";
+       echo "<td>$$price</td>";
        echo "<td><button>Add to Cart</button></td>";
        echo "</tr>";
    }
