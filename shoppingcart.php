@@ -90,7 +90,7 @@ include "config.php";
                             <td></td>
                             <td></td>
                             <td><strong>Total</strong></td>
-                            <td class="text-right"><strong>$422.0</strong></td>
+                            <td class="text-right"><strong>$422.00</strong></td>
                         </tr>
                     </tbody>
                 </table>
