@@ -14,8 +14,9 @@ include "config.php";
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 	<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbar-static/">
+	<script src="store.js"></script>
 </head>
-<body>
+<body class="bg-light">
 
 	 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
       <a class="navbar-brand" href="index.php">Hullmarket.com<span class="sr-only">(current)</span></a>
@@ -101,7 +102,7 @@ include "config.php";
                     <a href="index.php" class="btn btn-lg btn-block btn-light">Continue Shopping</a>
                 </div>
                 <div class="col-sm-12 col-md-6 text-right">
-                    <button class="btn btn-lg btn-block btn-success text-uppercase">Checkout</button>
+                    <a href="checkout.php" class="btn btn-lg btn-block btn-success text-uppercase">Checkout</a>
                 </div>
             </div>
         </div>

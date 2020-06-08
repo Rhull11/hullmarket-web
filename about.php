@@ -14,7 +14,7 @@ include "config.php";
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 	<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbar-static/">
 </head>
-<body>
+<body class="bg-light">
 
 	 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
       <a class="navbar-brand" href="index.php">Hullmarket.com<span class="sr-only">(current)</span></a>

@@ -26,7 +26,7 @@ include "config.php";
 </script>
 </head>
 
-<body>
+<body class="bg-light">
 
  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
       <a class="navbar-brand" href="index.php">Hullmarket.com<span class="sr-only">(current)</span></a>
