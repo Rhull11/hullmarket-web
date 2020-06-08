@@ -65,7 +65,7 @@ include "config.php";
                             <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
                         </tr>
                         <tr>
-                            <td>Office Chair/td>
+                            <td>Office Chair</td>
                             <td>In stock</td>
                             <td><input class="form-control" type="text" value="1" /></td>
                             <td class="text-right">$60.00</td>
