@@ -61,7 +61,7 @@ include "config.php";
                             <td>Water Bottle</td>
                             <td>In stock</td>
                             <td><input class="form-control" type="text" value="1" /></td>
-                            <td class="text-right">$7.00€</td>
+                            <td class="text-right">$7.00</td>
                             <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
                         </tr>
                         <tr>
